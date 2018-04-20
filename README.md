@@ -2,7 +2,7 @@
 
 These matlab functions use common numerical estimation and problem solving techniques. The techniques the algorithms use are relatively simple, but showcase the usefulnes of matlab for such computations and demonstrate the usefulness of the techniques themselves. 
 
-Although my scripts are not currently being employed in engineering/problem solving scenarios, they mimic and serve as an excercise in algorithm development. I imagine these scripts can be throughout my time in engineering school on various projects and assignments.
+Although my scripts are not currently being employed in engineering/problem solving scenarios, they mimic those used in industry/research and serve as an excercise in algorithm development. I imagine these scripts can be used throughout my time in engineering school on various projects and assignments.
 
 
 The algorithms coorespond to the curriculum of the Mechanical Engineering Problem Solving class at Colorado State University.
