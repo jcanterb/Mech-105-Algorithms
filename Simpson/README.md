@@ -1,4 +1,4 @@
-## Simpson's 1/3 Rule Function
+# Simpson's 1/3 Rule Function
 
 Simpson's 1/3 rule is one of the numerical integration methods commonly used throughout our course. This method is usually more accurate than the trapezoidal rule, but is not perfectly accurate, as it is a numerical technique. 
 
@@ -14,6 +14,7 @@ Examples of experimental applications include:
 2. Flux based on magnetic field
 3. Work based on pressure/volume or force/distance
 4. Volume flow
+
 ### How Does the Function Work?
 
 Simpson's 1/3 rule can only be used on data sets with an even number of intervals between points. For this reason, the code checks if this condition is met, and if not,it will use trapezoidal integration to account for the last segment(s). Besides testing for this condition, the code uses set formulas to compute an integral estimate.
