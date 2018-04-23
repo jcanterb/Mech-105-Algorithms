@@ -49,41 +49,6 @@ where **func**, **xl**, **xu**, **es**, **maxiter** are defined as follows in th
 
 ### Algorithm Limitations/Future Improvements
 
-For some reason, my script does not work if the function desired is input using symbolic variables. I designed it to work with either anonymous functions (using @(x) syntax) or symbolic, however it will ONLY work with anonymous.
+For some reason, my script does not work if the function desired is input using symbolic variables. I designed it to work with either anonymous functions (using @(x) syntax) or symbolic, however it will ONLY work with anonymous. In the future I would like to remedy this issue. It would be nice to not have such specific syntax for the funtion. Currently, upon using a symbolic function, the code throws an error. 
 
 
-
-
-
-
-False Position
-function [root,fx,ea,iter] = falsePosition(func,xl,xu,es,maxiter)
-%%
-%FALSE POSITION ROOT APPROXIMATION
-%Created by Joe Canterbury on 02.17.2018
-%
-%DESCRIPTION:   Function uses false position method to find the root of a 
-%function. Select bracketing guesses (xl,xu) such that between the guesses 
-%a root is found on the function. This .m file will approximate the root 
-%to a specified accuracy/error or number of iterations as entered by the 
-%user. Input the function you wish to find root of as '@(x) expression' (in
-%example, input "falsePosition( @(x) x^3 +x^2 +1, xl, xu, es, maxiter)"
-%
-% --------WARNING FUNC INPUT MUST BE EXTREMELEY SPECIFIC------------
-%                ENTER FUNC AS '@(x) x^3 +x^2 +1 etc...'
-%                       
-%
-% INPUTS: func - function to find roots of ( MUST BE ENTERED AS '@(x) function of x' )
-%         xl - lower guess, used as bracket
-%         xu - upper guess
-%         es - desired relative percent error of estimation (defaults to 0.0001%)
-%         maxiter - maximum iteration (defaults to 200)
-%
-% OUTPUTS: root - approximated root of the function
-%          fx - evaluated function at root
-%          ea - approximated relative percent error of root
-%          iter - number of iterations program used
-%
-% --------WARNING FUNC INPUT MUST BE EXTREMELEY SPECIFIC------------
-%                ENTER FUNC AS '@(x) x^3 +x^2 +1 etc...'
-%
