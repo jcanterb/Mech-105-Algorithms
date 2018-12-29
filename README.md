@@ -1,6 +1,6 @@
 # Numerical Methods Matlab Algorithms
 
-These matlab functions use common numerical estimation and problem solving techniques. The techniques the algorithms use are relatively simple, but showcase the usefulnes of matlab for such computations and demonstrate the usefulness of the techniques themselves. 
+These matlab functions use common numerical estimation and problem solving techniques. The techniques the algorithms use are relatively simple, but showcase the usefulness of matlab for such computations and demonstrate the usefulness of the techniques themselves. 
 
 Although my scripts are not currently being employed in engineering/problem solving scenarios, they mimic those used in industry/research and serve as an excercise in algorithm development. I imagine these scripts can be used throughout my time in engineering school on various projects and assignments.
 
